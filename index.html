@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target="#nav" id="home">
+
+  <!-- Navbar -->
+  <nav id="nav" class="navbar navbar-expand-lg fixed-top navbar-dark bg-transparent">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Moonlight</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#plan">View our plan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <section id="carousel">
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselId" data-slide-to="1"></li>
+        <li data-target="#carouselId" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="carousel-caption d-none d-block">
+            <h1 class="display-4">Visit the Moon!</h1>
+            <p>Only for <strong>250,000 $</strong></p>
+            <button class="btn btn-primary btn-lg text-uppercase"><a class="text-white" href="#plan">See our
+                plan!</a></button>
+          </div>
+        </div>
+        <div class="carousel-item carousel-image-2">
+          <div class="carousel-caption d-none d-block">
+            <h1 class="display-4">First class rocket</h1>
+            <p>You will be flying in rocket crated by specialists from <strong>Spacex</strong></p>
+            <button class="btn btn-primary btn-lg text-uppercase"><a class="text-white" href="#rocket">See rocket
+                Design!</a></button>
+          </div>
+        </div>
+        <div class="carousel-item carousel-image-3">
+          <div class="carousel-caption d-none d-block">
+            <h1 class="display-4">Hurry up!</h1>
+            <p>Places are limited</p>
+            <button class="btn btn-primary btn-lg text-uppercase"><a class="text-white" href="#plan">See our
+                plan!</a></button>
+          </div>
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-4">
+    <div class="container py-4">
+      <div class="row text-center padding">
+        <div class="col-lg-6">
+          <h2>Our space station is located next to <strong>San Diego</strong></h2>
+          <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, modi quaerat? Recusandae
+            facilis veniam explicabo cum laudantium illum excepturi atque sit quasi. Amet dolorum error animi, provident
+            tempore sit voluptate deleniti doloremque nam omnis perferendis beatae! Amet vero quas minus!</p>
+          <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, modi quaerat? Recusandae
+            facilis veniam explicabo cum laudantium illum excepturi atque sit quasi. Amet dolorum error animi.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="img/johnson-space-center.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron text-light bg-success w-100 text-center">
+      <h2 class="display-4 mb-4">Support Us!</h2>
+      <p class="lead">In the future, we planning to build new station next to <strong>New York</strong></p>
+      <hr class="my-2 bg-light">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores quidem quam, eos dignissimos dolorum
+        delectus quasi odit ea facere.</p>
+      <button type="button" data-toggle="modal" data-target="#supportModal" class="btn btn-primary btn-lg mt-2"><a
+          href="#" class=" text-white text-uppercase">Click to
+          Support!</a></button>
+      <div class="modal fade" id="supportModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content bg-success">
+            <div class="modal-header">
+              <h5 class="modal-title ml-2">Book a place</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span class="text-white" aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-left">
+              <div class="container-fluid">
+                <!-- Modal body -->
+                <form>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label>First name</label>
+                      <input type="text" class="form-control" value="Mark" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label>Last name</label>
+                      <input type="text" class="form-control" value="Otto" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-12 mb-3">
+                      <label>Email</label>
+                      <input type="email" class="form-control" required>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary ">Support</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="rocket" class="container py-4">
+      <div class="row text-center padding">
+        <div class="col-lg-6 order-lg-1">
+          <h2>Our rocket design is amazing</h2>
+          <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, modi quaerat? Recusandae
+            facilis veniam explicabo cum laudantium illum excepturi atque sit quasi. Amet dolorum error animi, provident
+            tempore sit voluptate deleniti doloremque nam omnis perferendis beatae! Amet vero quas minus!</p>
+          <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, modi quaerat? Recusandae
+            facilis veniam explicabo cum laudantium illum excepturi atque sit quasi. Amet dolorum error animi.</p>
+        </div>
+        <div class="col-lg-6 order-lg-0">
+          <img src="img/rocket-design-better.jpg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plan -->
+  <section id="plan">
+    <div class="container py-5">
+      <h1 class="display-4 text-center mb-5 text-bold">Our Plan!</h1>
+      <div class="row padding">
+        <div class="col-12">
+          <div class="card text-white bg-transparent">
+            <div class="card-body text-lg-right">
+              <h3 class="card-title mx-3 text-primary">1. Packing the luggage</h3>
+              <span class="planDot"></span>
+              <hr class="bg-white w-100 bg-primary">
+              <p class="card-text mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                ullam
+                voluptatibus, dignissimos nulla repudiandae autem dicta rerum pariatur omnis necessitatibus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="card text-white bg-transparent float-lg-right">
+            <div class="card-body">
+              <h3 class="card-title mx-3 text-primary">2. Flight to the moon</h3>
+              <span class="planDot"></span>
+              <hr class="bg-white w-100 bg-primary">
+              <p class="card-text mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officia
+                mollitia
+                ipsum eveniet rerum nostrum est minus doloremque, odio deserunt iste ut quae dicta ipsa praesentium ad
+                laborum corrupti iure!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="card text-white bg-transparent">
+            <div class="card-body text-lg-right">
+              <h3 class="card-title mx-3 text-primary">3. Exploring the moon</h3>
+              <span class="planDot"></span>
+              <hr class="bg-white w-100 bg-primary">
+              <p class="card-text mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptas beatae,
+                reprehenderit autem voluptates eius quam accusamus id numquam recusandae. Maiores placeat eaque,
+                recusandae exercitationem rerum ipsum sapiente, ab eum dolorem excepturi cum inventore ut suscipit
+                labore dolores earum aperiam! Quam aspernatur, reiciendis odio nostrum voluptas quod in fugiat
+                necessitatibus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="card text-white bg-transparent float-lg-right">
+            <div class="card-body">
+              <h3 class="card-title mx-3 text-primary">4. Coming home</h3>
+              <span class="planDot"></span>
+              <hr class="bg-white w-100 bg-primary">
+              <p class="card-text mx-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos laudantium
+                repellendus aut autem, harum perferendis?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Button Modal -->
+      <button type="button" data-toggle="modal" data-target="#bookModal"
+        class="btn btn-primary btn-lg mt-5 py-3 w-100"><a href="#" class="h3 text-white text-uppercase">Book a
+          place!</a></button>
+      <!-- Modal -->
+      <div class="modal fade" id="bookModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content bg-success">
+            <div class="modal-header">
+              <h5 class="modal-title ml-2">Book a place</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span class="text-white" aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <!-- Modal body -->
+                <form>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label>First name</label>
+                      <input type="text" class="form-control" value="Mark" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label>Last name</label>
+                      <input type="text" class="form-control" value="Otto" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-12 mb-3">
+                      <label>Email</label>
+                      <input type="email" class="form-control" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-12 mb-3">
+                      <label>Phone</label>
+                      <input type="text" class="form-control" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label>City</label>
+                      <input type="text" class="form-control" required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label>State</label>
+                      <select class="custom-select" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label>Zip</label>
+                      <input type="text" class="form-control" required>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary ">Book</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <section id="contact" class="py-4">
+    <div class="container py-4">
+      <h2 class="text-center mb-5">Most asked questions</h2>
+      <aside class="mostAskedQuestions">
+        <div id="accordianId" role="tablist" aria-multiselectable="true">
+          <div class="card bg-success mb-0">
+            <div class="card-header" role="tab" id="section1HeaderId">
+              <h4 class="mb-0">
+                <a class="text-white" data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId"
+                  aria-expanded="true" aria-controls="section1ContentId">
+                  Question 1
+                </a>
+              </h4>
+            </div>
+            <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
+              <div class="card-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, sit nemo adipisci quis facere a,
+                blanditiis excepturi iusto expedita inventore, nihil aliquam! Minima, sit et, voluptas aliquam ex enim
+                reiciendis repellendus exercitationem aspernatur vitae nostrum qui culpa beatae dignissimos earum
+                deserunt natus. Nihil voluptate veritatis sapiente rem ex debitis laboriosam.
+              </div>
+            </div>
+          </div>
+          <div class="card bg-success">
+            <div class="card-header" role="tab" id="section2HeaderId">
+              <h4 class="mb-0">
+                <a class="text-white" data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId"
+                  aria-expanded="true" aria-controls="section2ContentId">
+                  Question 2
+                </a>
+              </h4>
+            </div>
+            <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
+              <div class="card-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, sit nemo adipisci quis facere a,
+                blanditiis excepturi iusto expedita inventore, nihil aliquam! Minima, sit et, voluptas aliquam ex enim
+                reiciendis repellendus exercitationem aspernatur vitae nostrum qui culpa beatae dignissimos earum
+                deserunt natus. Nihil voluptate veritatis sapiente rem ex debitis laboriosam.
+              </div>
+            </div>
+          </div>
+          <div class="card bg-success">
+            <div class="card-header" role="tab" id="section3HeaderId">
+              <h4 class="mb-0">
+                <a class="text-white" data-toggle="collapse" data-parent="#accordianId" href="#section3ContentId"
+                  aria-expanded="true" aria-controls="section3ContentId">
+                  Question 3
+                </a>
+              </h4>
+            </div>
+            <div id="section3ContentId" class="collapse in" role="tabpanel" aria-labelledby="section3HeaderId">
+              <div class="card-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, sit nemo adipisci quis facere a,
+                blanditiis excepturi iusto expedita inventore, nihil aliquam! Minima, sit et, voluptas aliquam ex enim
+                reiciendis repellendus exercitationem aspernatur vitae nostrum qui culpa beatae dignissimos earum
+                deserunt natus. Nihil voluptate veritatis sapiente rem ex debitis laboriosam.
+              </div>
+            </div>
+          </div>
+          <div class="card bg-success">
+            <div class="card-header" role="tab" id="section4HeaderId">
+              <h4 class="mb-0">
+                <a class="text-white" data-toggle="collapse" data-parent="#accordianId" href="#section4ContentId"
+                  aria-expanded="true" aria-controls="section4ContentId">
+                  Question 4
+                </a>
+              </h4>
+            </div>
+            <div id="section4ContentId" class="collapse in" role="tabpanel" aria-labelledby="section4HeaderId">
+              <div class="card-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, sit nemo adipisci quis facere a,
+                blanditiis excepturi iusto expedita inventore, nihil aliquam! Minima, sit et, voluptas aliquam ex enim
+                reiciendis repellendus exercitationem aspernatur vitae nostrum qui culpa beatae dignissimos earum
+                deserunt natus. Nihil voluptate veritatis sapiente rem ex debitis laboriosam.
+              </div>
+            </div>
+          </div>
+          <div class="card bg-success">
+            <div class="card-header" role="tab" id="section5HeaderId">
+              <h4 class="mb-0">
+                <a class="text-white" data-toggle="collapse" data-parent="#accordianId" href="#section5ContentId"
+                  aria-expanded="true" aria-controls="section5ContentId">
+                  Question 5
+                </a>
+              </h4>
+            </div>
+            <div id="section5ContentId" class="collapse in" role="tabpanel" aria-labelledby="section5HeaderId">
+              <div class="card-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, sit nemo adipisci quis facere a,
+                blanditiis excepturi iusto expedita inventore, nihil aliquam! Minima, sit et, voluptas aliquam ex enim
+                reiciendis repellendus exercitationem aspernatur vitae nostrum qui culpa beatae dignissimos earum
+                deserunt natus. Nihil voluptate veritatis sapiente rem ex debitis laboriosam.
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <div class="container py-5">
+      <h1 class="text-center mb-5">Contact Us</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card bg-success p-4 mb-2">
+            <div class="card-body">
+              <h4>Address</h4>
+              <p>1203 Main st, San Diego CA</p>
+              <h4>Email</h4>
+              <p>moonlight@gmail.com </p>
+              <h4>Phone</h4>
+              <p> 91-99-99-999</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="card bg-success p-4">
+            <div class="card-body">
+              <h3 class="text center">Please fill out this form to contact us!</h3>
+              <hr>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="First Name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Last Name">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Phone Number">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group mt-3">
+                    <input type="submit" value="Submit" class="btn btn-primary btn-block">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy; <span id="year"></span> Moonlight</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script>
+    $('body').scrollspy({ target: '#nav' });
+
+    // Smooth Scrolling
+    $("#nav a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+          window.location.hash = hash;
+        });
+      }
+    });
+
+
+    $(document).on('scroll', function () {
+      const windowHeight = $(window).height();
+      const scrollValue = $(this).scrollTop();
+      const $carousel = $('body');
+      const $nav = $('#nav')
+      const carouselFromTop = $carousel.offset().top
+      if (scrollValue > carouselFromTop - windowHeight + 100) {
+        $nav.addClass('active');
+      }
+      if (scrollValue < 100) {
+        $nav.removeClass('active');
+      }
+
+    })
+  </script>
+</body>
+
+</html>
